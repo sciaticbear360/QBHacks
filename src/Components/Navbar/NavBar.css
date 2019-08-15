@@ -1,0 +1,110 @@
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+  }
+  .navbark.navbar.navbar-expand-lg.navbar-light.sticky-top
+  {
+      background-color: #292929;
+      z-index:1000000000;
+      position: relative;
+  }
+  .sign-in-div {
+    margin-top: 0em;
+    margin-bottom:auto;
+    margin-left: 1em;
+  }
+  .ui.primary.button.sign-in {
+    margin-left: 1em;
+    border-radius: 80px;
+    background-color: goldenrod;
+    color: black;
+    border: 5px solid black;
+    position: relative;
+    z-index: 1;
+    font-size: 0.875em;
+    white-space: nowrap;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 0;
+    padding: -0.75rem 1rem 0.4rem 1rem;
+     font-family: 'Electrolize', sans-serif;
+    outline: none;
+    transition: all 0.3s ease;
+    transform: scale(1);
+  }
+  .ui.primary.button.sign-in:hover{
+      
+      transform: scale(1.1) perspective(1px);
+  }
+  
+  .ui.header.logo {
+    font-size: 1.5em;
+    color:#e54f2f;
+    margin-top: auto;
+    transition: all 0.5s ease;
+      transform: scale(1);
+      margin-bottom:auto;
+      font-family: 'Electrolize', sans-serif;
+      font-weight: 100;
+  }
+  .ui.header.logo:hover{
+      
+      transform: scale(1.1) perspective(1px);
+  }
+  
+  
+  .navbar-light .navbar-nav .nav-link {
+    margin-left: 40px;
+    color: goldenrod;
+    border-radius: 0px;
+     font-family: 'Electrolize', sans-serif;
+    font-weight: 100;
+    margin-top: auto;
+    margin-bottom:auto;
+    font-size: 20px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover{
+      transition: 1s;
+      border-bottom: 3px solid goldenrod;
+      color: white;
+  }
+  .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link
+  {
+      color:white;
+      border-bottom: 3px solid goldenrod;
+  }
+  .navbar-nav {
+    text-align: left;
+  }
+  @media only screen and (max-width: 700px)
+  {
+      .ui.primary.button.sign-in
+      {
+          margin-top:1em;
+      }
+      .ui.button.demo 
+      {
+          margin-top:1em;
+  
+      }
+  }
+  @media only screen and (min-width: 701px) and (max-width: 1200px)
+  {
+      .ui.primary.button.sign-in
+      {
+          margin-top:1em;
+      }
+      .ui.button.demo 
+      {
+          margin-top:1em;
+  
+      }
+  }
+  
+  

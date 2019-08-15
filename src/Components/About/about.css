@@ -1,0 +1,31 @@
+.aboutheader-contain
+{
+    text-align: center;
+}
+#about
+{
+    background-color:#292929;
+}
+
+.aboutpage
+{
+    padding-top:5em;
+    padding-bottom: 5em;
+}
+.ui.header.about-head
+{
+    font-family: 'Electrolize', sans-serif;
+    color:#e54f2f;
+    font-size:5rem;
+}
+.aboutdes-contain
+{
+    margin-top:3em;
+   
+}
+.ui.header.about-des{
+    font-family: 'Electrolize', sans-serif;
+    color:goldenrod;
+    font-size:2em;
+    letter-spacing: 1px;
+}

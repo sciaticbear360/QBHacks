@@ -1,0 +1,85 @@
+#home
+{
+    background-color:#36454f;
+    height: 100vh; 
+}
+.homepage
+{
+    padding-top: 18em;
+    text-align: center;
+}
+.home-grid
+{
+    position: relative;
+}
+
+.ui.header.hook
+{
+    font-family: 'Electrolize', sans-serif;
+    font-size: 2.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+    color:goldenrod;
+}
+.ui.header.name
+{
+    font-family: 'Electrolize', sans-serif;
+    text-align: center;
+    font-size: 5rem;
+    color:#e54f2f;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ui.header.date
+{
+    font-family: 'Electrolize', sans-serif;
+    font-size: 2.5em;
+    color:goldenrod;
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reg-button-contain
+{
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ui.button.reg-button {
+    white-space: nowrap;
+    z-index: 1;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+    width: auto;
+    padding: 15px 40px;
+    border: none;
+    background: goldenrod;
+    border: 5px solid black;
+    border-radius: 15px;
+    transition: 0.5s;
+    font-family: 'Electrolize', sans-serif;
+    transition: all 0.3s ease;
+    transform: scale(1);
+  }
+  .ui.button.reg-button:hover{
+      
+      transform: scale(1.1) perspective(1px);
+  }
+  @media only screen and (max-width: 700px)
+  {
+    .ui.header.hook
+    {
+        font-size: 2em;
+    }
+    .ui.header.name
+    {
+        font-size: 2.5em;
+    }   
+    .ui.header.date
+    {
+        font-size: 2em;
+    }
+  }
