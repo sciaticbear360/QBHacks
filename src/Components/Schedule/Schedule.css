@@ -1,0 +1,50 @@
+#schedule
+{
+    background-color:#292929;
+}
+.schedulepage
+{
+    padding-top:5em;
+    padding-bottom: 5em;
+}
+.schedheader-contain
+{
+    text-align: center;
+}
+.ui.header.sched-head
+{
+    font-family: 'Electrolize', sans-serif;
+    color:#e54f2f;
+    font-size:5rem;
+}
+.ui.table
+{
+    background:#292929;
+    color:goldenrod;
+    font-size: 1.5em;
+    font-family: 'Electrolize', sans-serif;
+}
+.ui.table thead th
+{
+    font-family: 'Electrolize', sans-serif;
+    color:#e54f2f;
+    font-size: 1.5em;
+    background:#292929;
+}
+.schedule-contain
+{
+    margin-top:3em;
+}
+.ui.celled.table tr td, .ui.celled.table tr th
+{
+    border:1px solid white;
+    border-left: 1px solid white;
+}
+.ui.table thead tr:first-child>th:first-child
+{
+    border-left: 1px solid white;
+}
+.ui.celled.table tr td:first-child, .ui.celled.table tr th:first-child
+{
+    border-left: 1px solid white;
+}
