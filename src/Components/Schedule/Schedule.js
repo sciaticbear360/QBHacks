@@ -2,7 +2,7 @@ import React from "react";
 import { Header, Table } from "semantic-ui-react";
 import "./Schedule.css";
 export default class Schedule extends React.Component {
-    render() {
+    render() { {/*bot test comment*/}
         return (
             <section id={"schedule"}>
                 <div className={"schedulepage container"}>
