@@ -1,27 +1,31 @@
 import React from "react";
-import { Grid, Header, Button } from "semantic-ui-react";
+import {  Header} from "semantic-ui-react";
 import "./about.css";
 export default class About extends React.Component {
   render() {
     return (
-        <section id={"about"}>
-      <div className={"aboutpage container"}>
-        <div className={"aboutheader-contain"}>
-          <Header className={"about-head"}>About</Header>
+      <section id={"about"}>
+        <div className={"aboutpage container"}>
+          <div className={"aboutheader-contain"}>
+            <Header className={"about-head"}>About</Header>
+          </div>
+          <div className={"aboutdes-contain"}>
+            <Header className={"about-des"}>
+              A Hackathon: A collaborative team effort in which groups of
+              individuals compete against the clock in order to design
+              innovative solutions to significant global and communal issues.
+              Within MontgomeryHacks, individuals, regardless of experience, are
+              able to attend and partake in highly interactive workshops, each
+              of which providing crucial real-world skills, allowing for not
+              only individuals to excel in the Hackathon, but also for these
+              individuals to excel in the real world with the skills they have
+              learned. With this event, we hope to inspire people from all age
+              groups to join the world of Computer Science and help change the
+              future, bit by bit and byte by byte.
+            </Header>
+          </div>
         </div>
-        <div className={"aboutdes-contain"}>
-          <Header className={"about-des"}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </Header>
-        </div>
-      </div>
       </section>
-    );  
+    );
   }
 }

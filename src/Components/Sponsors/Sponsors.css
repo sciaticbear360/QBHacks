@@ -1,0 +1,37 @@
+#Sponsors {
+  background-color: #292929;
+}
+.Sponsorspage {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+.ui.header.Sponsors-head {
+  font-family: "Electrolize", sans-serif;
+  color: #e54f2f;
+  font-size: 5rem;
+  text-align: center;
+}
+.sponsor-message-contain
+{
+    margin-top: 3em;
+}
+.ui.header.sponsor-message
+{
+    font-family: 'Electrolize', sans-serif;
+    color:goldenrod;
+    font-size:1.5rem;
+    letter-spacing: 1px;
+}
+@media only screen and (max-width:700px)
+{
+    .ui.header.Sponsors-head
+    {
+        font-size: 3.5rem;
+    }
+    .ui.header.sponsor-message
+    {
+        font-size: 12px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,67 @@
+#FAQ
+{
+    background-color:#36454f;
+}
+.faqheader-contain
+{
+    margin-bottom: 3em;
+}
+.ui.header.faq-head {
+    font-family: "Electrolize", sans-serif;
+    color: #e54f2f;
+    font-size: 5rem;
+    text-align: center;
+  }
+.questions-below
+{
+    margin-top: 3em;
+}
+.ui.header.question-header
+{
+    font-family: 'Electrolize', sans-serif;
+    color:#e54f2f;
+    font-size:2rem;
+}
+.ui.header.answer-header
+{
+    font-family: 'Electrolize', sans-serif;
+    color:goldenrod;
+    font-size:1.5rem;
+    letter-spacing: 1px;
+}
+.card
+{
+    background-color:#292929;
+}
+
+.arrow.down.icon
+{
+    color:goldenrod;
+    
+}
+.icon-holder
+{
+    float: right;
+}
+.faq
+{
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+@media only screen and (max-width:700px)
+{
+    .ui.header.faq-head
+    {
+        font-size: 3.5rem;
+    }
+    .ui.header.question-header
+    {
+        font-size: 1.3em;
+    }
+    .ui.header.answer-header
+    {
+        font-size: 1em;
+    }
+    
+}

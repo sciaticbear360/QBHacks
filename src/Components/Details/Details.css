@@ -1,30 +1,63 @@
-#details
-{
-    background-color:#36454f;
+#details {
+  background-color: #36454f;
 }
 
-.detailpage
-{
-    padding-top:5em;
-    padding-bottom: 5em;
+.detailpage {
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
 
-.ui.header.Detail-head
-{
-    font-family: 'Electrolize', sans-serif;
-    color:#e54f2f;
-    font-size:5rem;
+.ui.header.Detail-head {
+  font-family: "Electrolize", sans-serif;
+  color: #e54f2f;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.ui.header.details-text {
+  font-family: "Electrolize", sans-serif;
+  color: goldenrod;
+  font-size: 2em;
+  margin-top: 3em;
+}
+.map-contain {
+  margin-top: 5em;
+  margin-left: 1em;
+  border-radius: 30px;
+}
+@media only screen and (max-width: 700px) {
+  .ui.header.Detail-head {
+    font-size: 3.5rem;
+  }
+  .ui.header.details-text {
+    font-family: "Electrolize", sans-serif;
+    color: goldenrod;
+    font-size: 1.5em;
+    margin-top: 2em;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .map
+  {
+      height:25em;
+      width:auto;
+  }
 }
-.ui.header.details-text
+@media only screen and (min-width: 701px) and (max-width:1200px)
 {
-    font-family: 'Electrolize', sans-serif;
-    color:goldenrod;
-    font-size:2em;
-    margin-top: 3em;
-}
-.map-contain
-{
-    margin-top: 3em;
-    margin-left:1em;
+  .ui.header.details-text {
+    font-family: "Electrolize", sans-serif;
+    color: goldenrod;
+    font-size: 1.5em;
+    margin-top: 2em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .map
+  {
+      height:20em;
+      width:auto;
+  }
 }

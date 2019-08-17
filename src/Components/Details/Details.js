@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Header, Button } from "semantic-ui-react";
+import { Grid, Header} from "semantic-ui-react";
 import "./Details.css";
 export default class About extends React.Component {
   render() {
@@ -24,6 +24,12 @@ export default class About extends React.Component {
                 Hill, NJ 08553
               </Header>
             </Grid.Row>
+            <Grid.Row>
+              <Header  className={"details-text"}>
+                Participation: Anyone from high school to college students, who love STEM
+                 can participate in this event.
+              </Header>
+            </Grid.Row>
           </Grid.Column>
 
           <Grid.Column>
@@ -32,10 +38,10 @@ export default class About extends React.Component {
               className={"map"}
               width="600"
               height="450"
-              frameborder="0"
+              frameBorder="0"
               style={{ border: "0" }}
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.3367709675554!2d-74.6414084847427!3d40.40138967936694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3e7d2c6011969%3A0xd3e8ce9897c73c5!2s64+Washington+St%2C+Rocky+Hill%2C+NJ+08553!5e0!3m2!1sen!2sus!4v1565849504909!5m2!1sen!2sus"
-              allowfullscreen
+              allowFullScreen
             />
           </div>
           </Grid.Column>

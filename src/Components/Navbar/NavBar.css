@@ -51,6 +51,12 @@
       font-family: 'Electrolize', sans-serif;
       font-weight: 100;
   }
+  @media only screen and (min-width: 701px) and (max-width:1200px)
+  {
+    .ui.header.logo {
+        font-size: 1em;
+    }
+  }
   .ui.header.logo:hover{
       
       transform: scale(1.1) perspective(1px);
@@ -67,6 +73,12 @@
     margin-bottom:auto;
     font-size: 20px;
     border-bottom: 3px solid transparent;
+  }
+  @media only screen and (min-width: 701px) and (max-width:1200px)
+  {
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 14.5px;
+    }
   }
   
   .navbar-light .navbar-nav .nav-link:hover{
@@ -107,4 +119,7 @@
       }
   }
   
-  
+  .navbar-light .navbar-toggler-icon
+  {
+      background-image: url(./nav-image/hamburger.jpg);
+  }

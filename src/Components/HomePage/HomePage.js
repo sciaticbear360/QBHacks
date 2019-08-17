@@ -1,6 +1,7 @@
 import React from "react";
-import { Grid, Header, Button } from "semantic-ui-react";
+import { Grid, Header, Button,Image } from "semantic-ui-react";
 import "./HomePage.css";
+import Logo from '../Images/logo.png';
 export default class HomePage extends React.Component {
   render() {
     return (
@@ -9,7 +10,9 @@ export default class HomePage extends React.Component {
           <Grid columns={2} className={"home-grid"} stackable={true}>
             <Grid.Row>
               <Grid.Column>
-                <Header>Logo Dropzone-1</Header>
+                <Image className={"logo"} src={Logo}>
+
+                </Image>
               </Grid.Column>
               <Grid.Column>
                 <div className={"container"}>
@@ -26,7 +29,7 @@ export default class HomePage extends React.Component {
                   </Grid.Row>
                   <Grid.Row>
                     <div className={"reg-button-contain"}>
-                      <Button className={"reg-button"}>Register</Button>
+                      <Button target={"blank"} href={"https://rohandeshpande725226.typeform.com/to/M4XEyz"}className={"reg-button"}>Register</Button>
                     </div>
                   </Grid.Row>
                 </div>
