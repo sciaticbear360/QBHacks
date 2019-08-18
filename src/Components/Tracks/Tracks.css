@@ -1,0 +1,62 @@
+#Tracks
+{
+    background-color:#36454f;
+}
+.TrackPage
+{
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.Trackheader-contain
+{
+    text-align: center;
+    margin-bottom: 3em;
+}
+.ui.header.Track-head
+{
+    font-family: 'Electrolize', sans-serif;
+    color:#e54f2f;
+    font-size:5rem;
+}
+@media only screen and (max-width:700px)
+{
+    .ui.header.Track-head
+    {
+        font-size: 3.5rem;
+    }
+}
+.ui.segment.track-bubble
+{
+    background-color:#292929;
+    border-radius: 15px;
+    transition: all 0.25s ease;
+}
+.track-header-div
+{
+    text-align: center;
+}
+.ui.header.track-header
+{
+    font-family: 'Electrolize', sans-serif;
+    color:#e54f2f;
+    font-size:3em;
+}
+.ui.header.track-description
+{
+    font-family: 'Electrolize', sans-serif;
+    color:goldenrod;
+    font-size:1.3em;
+}
+.ui.segment.track-bubble:hover{
+    transform: scale(1.025) perspective(1px) translateZ(0);
+}
+.track-image-div
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width:40%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}

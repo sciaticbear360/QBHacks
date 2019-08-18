@@ -1,0 +1,41 @@
+#Contact
+{
+    background-color:#292929;
+}
+.Contactpage 
+{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.socials
+{
+    display: inline-block;
+}
+.social-links
+{
+    text-align: center;
+}
+.email-contain
+{
+    margin-top: 2em;
+}
+.ui.header.email
+{
+    font-family: 'Electrolize', sans-serif;
+    color:goldenrod;
+    font-size:1.5em;
+}
+.trade-mark
+{
+    margin-top: 1.5em;
+}
+summary
+{
+    font-family: 'Electrolize', sans-serif;
+    color:goldenrod;
+}
+.credits
+{
+    font-family: 'Electrolize', sans-serif;
+    color:goldenrod;
+}

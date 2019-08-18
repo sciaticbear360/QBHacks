@@ -105,8 +105,7 @@ export default class FAQ extends React.Component {
               <Card>
                 <Accordion.Toggle as={Card.Header} eventKey="4">
                   <Header className={"question-header"}>
-                    How does the application process work and who are the
-                    eligible students?
+                    Can I attend?
                     <span className={"icon-holder"}>
                       <Icon name={"arrow down"} />
                     </span>
@@ -115,11 +114,8 @@ export default class FAQ extends React.Component {
                 <Accordion.Collapse eventKey="4">
                   <Card.Body>
                     <Header className={"answer-header"}>
-                      Applications will be reviewed by the HackMontgomery
-                      administration and based on our decision, selective{" "}
-                      <strong>High School</strong> and{" "}
-                      <strong>University</strong> students are eligible to
-                      apply.
+                      If you are a high school or undergraduate student, please come hack with us! To register, click the register button on the website and please answer the questions on the given form.
+                      If you want our sponsors to look into your application, you can also provide your github or resume links in the form.  
                     </Header>
                   </Card.Body>
                 </Accordion.Collapse>
@@ -151,8 +147,7 @@ export default class FAQ extends React.Component {
               <Card>
                 <Accordion.Toggle as={Card.Header} eventKey="6">
                   <Header className={"question-header"}>
-                    How do I know if I am selected to attend MontgomeryHacks
-                    2019?
+                    How do teams work?
                     <span className={"icon-holder"}>
                       <Icon name={"arrow down"} />
                     </span>
@@ -161,8 +156,26 @@ export default class FAQ extends React.Component {
                 <Accordion.Collapse eventKey="6">
                   <Card.Body>
                     <Header className={"answer-header"}>
-                      Once we review your application, we will send you an email
-                      about your acceptance result.
+                    The max team size is 4, but the minimum team size is one (meaning yes, you can work by yourself). We'd encourage you to work in a team so you can have people to learn from, bounce ideas off of, and break work down into manageable chunks!
+                    </Header>
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+            </div>
+            <div className={"questions-below"}>
+              <Card>
+                <Accordion.Toggle as={Card.Header} eventKey="7">
+                  <Header className={"question-header"}>
+                    Have a question?
+                    <span className={"icon-holder"}>
+                      <Icon name={"arrow down"} />
+                    </span>
+                  </Header>
+                </Accordion.Toggle>
+                <Accordion.Collapse eventKey="7">
+                  <Card.Body>
+                    <Header className={"answer-header"}>
+                    Please reach out to <a href="mailto:contact@montgomeryhacks.com">contact@montgomeryhacks.com</a>
                     </Header>
                   </Card.Body>
                 </Accordion.Collapse>

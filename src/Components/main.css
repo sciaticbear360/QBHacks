@@ -16,3 +16,17 @@
     overflow-x:hidden;
   }
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e54f2f;
+  box-shadow: 0 0 1rem rgba(0,0,0,.3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #e54f2f;
+}

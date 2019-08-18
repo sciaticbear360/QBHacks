@@ -1,7 +1,9 @@
 {
   "name": "montyhack",
   "version": "0.1.0",
+  "homepage":"https://Rohan2002.github.io/MontgomeryHacks",
   "private": true,
+  
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.9.0",
