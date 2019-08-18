@@ -11,10 +11,7 @@ export default class About extends React.Component {
           </div>
           <div className={"aboutdes-contain"}>
             <Header className={"about-des"}>
-              A Hackathon: A collaborative team effort in which groups of
-              individuals compete against the clock in order to design
-              innovative solutions to significant global and communal issues.
-              Within MontgomeryHacks, individuals, regardless of experience, are
+              In MontgomeryHacks, individuals, regardless of experience, are
               able to attend and partake in highly interactive workshops, each
               of which providing crucial real-world skills, allowing for not
               only individuals to excel in the Hackathon, but also for these
