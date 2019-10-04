@@ -1,0 +1,74 @@
+#Team
+{
+    background-color:#36454f;
+}
+.teampage
+{
+    padding-top:5em;
+    padding-bottom: 5em;
+}
+.ui.header.Team-head
+{
+    font-family: 'Electrolize', sans-serif;
+    color:#e54f2f;
+    font-size:5rem;
+}
+.Teamheader-contain
+{
+    text-align: center;
+}
+.teamgrid-contain
+{
+    margin-left: auto;
+    margin-right: auto;
+    width:auto;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+/*Props for person CSS*/
+
+.ui.image.person-image
+{
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.6s;
+
+}
+.ui.image.person-image:hover {
+    transform: scale(1.1) perspective(0.5px);
+  }
+.ui.header.person-name
+{
+    font-family: 'Electrolize', sans-serif;
+    color:goldenrod;
+    font-size:2em;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+.ui.header.person-role
+{
+    margin-top: -1em;
+    font-family: 'Electrolize', sans-serif;
+    color:#e54f2f;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    font-size:1.5em;
+}
+.person-link
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width: 700px)
+{
+.ui.header.Team-head {
+    font-size: 3.5rem;
+    text-align: center;
+}
+}

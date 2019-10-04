@@ -13,10 +13,10 @@ export default class About extends React.Component {
         <Grid columns={2} className={"detail-grid"} stackable={true}>
           <Grid.Column>
             <Grid.Row>
-              <Header className={"details-text"}>Date: September 14, 2019</Header>
+              <Header className={"details-text"}>Date: November 16-17, 2019</Header>
             </Grid.Row>
             <Grid.Row>
-              <Header className={"details-text"} >Time: 8am - 8pm</Header>
+              <Header className={"details-text"} >Time: 10am (Saturday) - 10am (Sunday) </Header>
             </Grid.Row>
             <Grid.Row>
               <Header  className={"details-text"}>

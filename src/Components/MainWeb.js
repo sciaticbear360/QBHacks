@@ -6,6 +6,7 @@ import Details from './Details/Details';
 import Schedule from './Schedule/Schedule';
 import Tracks from './Tracks/Tracks';
 import Sponsor from './Sponsors/Sponsors';
+import Team from './Team/Team';
 import FAQ from './FAQ/FAQ';
 import Contact from './Contact/Contact';
 import './main.css';
@@ -22,6 +23,7 @@ export default class MainWeb extends React.Component
                 <Schedule/>
                 <Tracks/>
                 <FAQ/>
+                <Team/>
                 <Sponsor/>
                 <Contact/>
             </div>

@@ -28,10 +28,8 @@ export default class Schedule extends React.Component {
               </Header>
             </div>
             <div className={"trade-mark"}>
-              <details>
                 <summary>© MontgomeryHacks 2019. All Rights Reserved.</summary>
                 <p className={"credits"}> - By <a href={"https://www.linkedin.com/in/rohan-deshpande-994b23160/"}>Rohan Deshpande</a>. All Rights Reserved.</p>
-              </details>
             </div>
           </div>
         </div>

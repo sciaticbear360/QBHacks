@@ -13,7 +13,7 @@ export default class NavBar extends React.Component {
         <Navbar className={"navbark"} sticky="top" collapseOnSelect expand="lg">
           <Navbar.Brand>
             {" "}
-            <a href="/#/" className="logo">
+            <a href="/#home" className="logo">
               {" "}
               <Header className={"logo"} as="h1">
                 MontgomeryHacks
@@ -30,10 +30,11 @@ export default class NavBar extends React.Component {
               <Nav.Link href="#schedule">Schedule</Nav.Link>
               <Nav.Link href="#Tracks">Tracks</Nav.Link>
               <Nav.Link href="#FAQ">FAQ</Nav.Link>
+              <Nav.Link href="#Team">Team</Nav.Link>
               <Nav.Link href="#Sponsors">Sponsors</Nav.Link>
               <Nav.Link href="#Contact">Contact Us</Nav.Link>
 
-              <div className={"sign-in-div"}>
+              {/* <div className={"sign-in-div"}>
                 <Button
                   className={"sign-in"}
                   primary
@@ -41,7 +42,7 @@ export default class NavBar extends React.Component {
                 >
                   Register
                 </Button>
-              </div>
+              </div> */}
             </Nav>
           </Navbar.Collapse>
         </Navbar>
