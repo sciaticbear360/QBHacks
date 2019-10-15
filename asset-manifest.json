@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/QBHacks/static/css/main.29e585d8.chunk.css",
+    "main.js": "/QBHacks/static/js/main.4892b059.chunk.js",
+    "main.js.map": "/QBHacks/static/js/main.4892b059.chunk.js.map",
+    "runtime~main.js": "/QBHacks/static/js/runtime~main.d28d9f3c.js",
+    "runtime~main.js.map": "/QBHacks/static/js/runtime~main.d28d9f3c.js.map",
+    "static/css/2.789b6b35.chunk.css": "/QBHacks/static/css/2.789b6b35.chunk.css",
+    "static/js/2.1f2058d5.chunk.js": "/QBHacks/static/js/2.1f2058d5.chunk.js",
+    "static/js/2.1f2058d5.chunk.js.map": "/QBHacks/static/js/2.1f2058d5.chunk.js.map",
+    "index.html": "/QBHacks/index.html",
+    "precache-manifest.36b3b63db4314da87e02da01a7f280b4.js": "/QBHacks/precache-manifest.36b3b63db4314da87e02da01a7f280b4.js",
+    "service-worker.js": "/QBHacks/service-worker.js",
+    "static/css/2.789b6b35.chunk.css.map": "/QBHacks/static/css/2.789b6b35.chunk.css.map",
+    "static/css/main.29e585d8.chunk.css.map": "/QBHacks/static/css/main.29e585d8.chunk.css.map",
+    "static/media/aarav-new1.jpg": "/QBHacks/static/media/aarav-new1.b42ed9c4.jpg",
+    "static/media/semantic.min.css": "/QBHacks/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/creative.svg": "/QBHacks/static/media/creative.cb573310.svg",
+    "static/media/daniel.jpg": "/QBHacks/static/media/daniel.7bcdd163.jpg",
+    "static/media/darshil.jpeg": "/QBHacks/static/media/darshil.98206cdf.jpeg",
+    "static/media/gui-new.jpg": "/QBHacks/static/media/gui-new.9469f1b1.jpg",
+    "static/media/hand.svg": "/QBHacks/static/media/hand.ee181b40.svg",
+    "static/media/heart.svg": "/QBHacks/static/media/heart.c9a2c7d5.svg",
+    "static/media/logo.png": "/QBHacks/static/media/logo.4745ccd3.png",
+    "static/media/new.jpg": "/QBHacks/static/media/new.8a72741f.jpg",
+    "static/media/rahul.jpg": "/QBHacks/static/media/rahul.3c1a0d38.jpg",
+    "static/media/rohan.jpg": "/QBHacks/static/media/rohan.8ca943ed.jpg"
+  }
+}
