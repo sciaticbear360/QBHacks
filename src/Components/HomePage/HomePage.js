@@ -21,11 +21,11 @@ export default class HomePage extends React.Component {
                   </Grid.Row>
 
                   <Grid.Row>
-                    <Header className={"name"}>MontgomeryHacks</Header>
+                    <Header className={"name"}>QuakerBridgeHacks</Header>
                   </Grid.Row>
 
                   <Grid.Row>
-                    <Header className={"date"}>November 16-17, 2019</Header>
+                    <Header className={"date"}>November 16, 2019</Header>
                   </Grid.Row>
                   <Grid.Row>
                     <div className={"reg-button-contain"}>

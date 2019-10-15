@@ -12,11 +12,11 @@ export default class Schedule extends React.Component {
 
           <div  className={"sponsor-message-contain"}>
               <Header className={"sponsor-message"}>
-                  MontgomoryHacks enables students to think big and code big to make a better change in the society.<br/>
+                  QuakerBridgeHacks enables students to think big and code big to make a better change in the society.<br/>
                   Interested in sponsoring our hackathon?
                   <br/>
                   <br/>
-                  Send us an email at <a href="mailto:sponsor@montgomeryhacks.com">sponsor@montgomeryhacks.com</a>
+                  Send us an email at <a href="mailto:sponsor@montgomeryhacks.com">sponsor@QBHacks.com</a>
 
               </Header>
           </div>

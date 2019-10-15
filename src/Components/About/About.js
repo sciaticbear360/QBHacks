@@ -11,7 +11,7 @@ export default class About extends React.Component {
           </div>
           <div className={"aboutdes-contain"}>
             <Header className={"about-des"}>
-              In MontgomeryHacks, individuals, regardless of experience, are
+              In QuakerBridgeHacks (QBHacks), individuals, regardless of experience, are
               able to attend and partake in highly interactive workshops, each
               of which providing crucial real-world skills, allowing for not
               only individuals to excel in the Hackathon, but also for these

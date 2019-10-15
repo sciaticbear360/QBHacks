@@ -19,28 +19,69 @@ export default class Schedule extends React.Component {
                 <tr>
                   
                   <th>Time</th>
-                  <th>Place</th>
                   <th>Event</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   
-                  <td>Table cell</td>
-                  <td>Table cell</td>
-                  <td>Table cell</td>
+                  <td>Check-in</td>
+                  <td>8:00am-9:00am</td>
                 </tr>
                 <tr>
                   
-                  <td>Table cell</td>
-                  <td>Table cell</td>
-                  <td>Table cell</td>
+                  <td>Opening Ceremony</td>
+                  <td>9:00am-9:45am</td>
                 </tr>
                 <tr>
                   
-                  <td>Table cell</td>
-                  <td>Table cell</td>
-                  <td>Table cell</td>
+                  <td>Getting hyped up and ready</td>
+                  <td>9:45am-10:00am</td>
+                </tr>
+                <tr>
+                  
+                  <td>Hackathon Commences!</td>
+                  <td>10:00am</td>
+                </tr>
+                <tr>
+                  
+                  <td>Workshop 1</td>
+                  <td>10:00am-11:00am</td>
+                </tr>
+                <tr>
+                  
+                  <td>Workshop 2</td>
+                  <td>12:00pm-1:00pm</td>
+                </tr>
+                <tr>
+                  
+                  <td>Lunch Time</td>
+                  <td>1:00pm-3:00pm</td>
+                </tr>
+                <tr>
+                  
+                  <td>Workshop 3</td>
+                  <td>2:00pm-3:00pm</td>
+                </tr>
+                <tr>
+                  
+                  <td>Dinner Time</td>
+                  <td>5:00pm-6:00pm</td>
+                </tr>
+                <tr>
+                  
+                  <td>Submit the projects</td>
+                  <td>6:00pm</td>
+                </tr>
+                <tr>
+                  
+                  <td>Judging Commences</td>
+                  <td>6:00pm-7:00pm</td>
+                </tr>
+                <tr>
+                  
+                  <td>Closing Ceremony & Awards</td>
+                  <td>7:00pm-8:00pm</td>
                 </tr>
               </tbody>
             </Table>

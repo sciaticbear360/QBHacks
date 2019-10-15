@@ -2,6 +2,13 @@ import React from "react";
 import { Header, Grid } from "semantic-ui-react";
 import "./Team.css";
 import Person from "./Person";
+import Rahul from './people/rahul.jpg';
+import Daniel from './people/daniel.jpg';
+import Jinal from './people/new.jpg';
+import Rohan from './people/rohan.jpg';
+import Darshil from './people/darshil.jpeg';
+import Gui from './people/gui-new.jpg';
+import Aarav from './people/aarav-new1.jpg';
 export default class Team extends React.Component {
   render() {
     return (
@@ -19,21 +26,25 @@ export default class Team extends React.Component {
                       "https://react.semantic-ui.com/images/wireframe/square-image.png"
                     }
                     size={"small"}
+                    image={Rohan}
                     name={"Rohan Deshpande"}
                     role1={"President & Founder"}
                     role2={"Director of Technology"}
                     role3={"Website Developer"}
                   ></Person>
                 </Grid.Column>
+                
                 <Grid.Column>
                   <Person
                     image={
                       "https://react.semantic-ui.com/images/wireframe/square-image.png"
                     }
                     size={"small"}
-                    name={"Arjun Malayapalam"}
-                    role1={"President"}
+                    image={Aarav}
+                    name={"Aarav Solanki"}
+                    role1={"Organizer"}
                     role2={"Director of Logistics"}
+                    
                   ></Person>
                 </Grid.Column>
                 <Grid.Column>
@@ -43,6 +54,7 @@ export default class Team extends React.Component {
                     }
                     size={"small"}
                     name={"Darshil Patel"}
+                    image={Darshil}
                     role1={"Organizer"}
                     role2={"Director of Marketing"}
                   ></Person>
@@ -57,6 +69,7 @@ export default class Team extends React.Component {
                     }
                     size={"small"}
                     name={"Guilherme"}
+                    image={Gui}
                     role1={"Organizer"}
                     role2={"Director of UX/UI Designer"}
                   ></Person>
@@ -67,6 +80,7 @@ export default class Team extends React.Component {
                       "https://react.semantic-ui.com/images/wireframe/square-image.png"
                     }
                     size={"small"}
+                    image={Daniel}
                     name={"Daniel Baumgartner"}
                     role1={"Organizer"}
                     role2={"Director of Finance"}
@@ -79,6 +93,7 @@ export default class Team extends React.Component {
                     }
                     size={"small"}
                     name={"Jinal Shah"}
+                    image={Jinal}
                     role1={"Organizer"}
                     role2={"Workshop Coordinator"}
                     
@@ -91,7 +106,7 @@ export default class Team extends React.Component {
                 <Grid.Column>
                   <Person
                     image={
-                      "https://react.semantic-ui.com/images/wireframe/square-image.png"
+                      Rahul
                     }
                     size={"small"}
                     name={"Rahul Shah"}

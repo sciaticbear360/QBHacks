@@ -25,11 +25,12 @@ export default class Schedule extends React.Component {
                       <Image className={"track-image"} src={Finance} />
                     </div>
                     <div className={"track-description-div"}>
-                      <Header className={"track-description"}> Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu
-                        fugiat nulla pariatur. 
+                      <Header className={"track-description"}>
+                        {" "}
+                        While combining finance with next generation
+                        technologies, this track focuses on advancing finance
+                        one line at a time. Let your creativity fly, and let’s
+                        see how you can revolutionize the financial industry!
                       </Header>
                     </div>
                   </div>
@@ -46,11 +47,13 @@ export default class Schedule extends React.Component {
                     </div>
                     <div className={"track-description-div"}>
                       <Header className={"track-description"}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
+                        This track combines the classroom learning environment
+                        with modern and next generation technologies. With a
+                        main goal of advancing the efficiency of the classroom,
+                        this track focuses on making education accessible and
+                        effective. Education is how we start, and we look
+                        forward to seeing how you can change the way we learn in
+                        the classroom!
                       </Header>
                     </div>
                   </div>
@@ -67,10 +70,13 @@ export default class Schedule extends React.Component {
                     </div>
                     <div className={"track-description-div"}>
                       <Header className={"track-description"}>
-                        Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
+                        This track is a junction of identifying creative
+                        solutions and developing transformative technologies
+                        that impact the medical industry positively. With the
+                        goal of advancing modern medicine, this track focuses on
+                        making healthcare accessible and diseases avoidable. We
+                        look forward to seeing how you can revolutionize modern
+                        medicine!
                       </Header>
                     </div>
                   </div>

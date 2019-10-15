@@ -13,15 +13,14 @@ export default class About extends React.Component {
         <Grid columns={2} className={"detail-grid"} stackable={true}>
           <Grid.Column>
             <Grid.Row>
-              <Header className={"details-text"}>Date: November 16-17, 2019</Header>
+              <Header className={"details-text"}>Date: November 16, 2019</Header>
             </Grid.Row>
             <Grid.Row>
-              <Header className={"details-text"} >Time: 10am (Saturday) - 10am (Sunday) </Header>
+              <Header className={"details-text"} >Time: 8am - 8pm </Header>
             </Grid.Row>
             <Grid.Row>
               <Header  className={"details-text"}>
-                Location: Mary Jacobs Memorial Library: 64 Washington St, Rocky
-                Hill, NJ 08553
+                Location: 4044 Quakerbridge Rd, Mercerville, NJ 08619
               </Header>
             </Grid.Row>
             <Grid.Row>
@@ -40,7 +39,7 @@ export default class About extends React.Component {
               height="450"
               frameBorder="0"
               style={{ border: "0" }}
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.3367709675554!2d-74.6414084847427!3d40.40138967936694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3e7d2c6011969%3A0xd3e8ce9897c73c5!2s64+Washington+St%2C+Rocky+Hill%2C+NJ+08553!5e0!3m2!1sen!2sus!4v1565849504909!5m2!1sen!2sus"
+              src="https://maps.google.com/maps?q=4044%20Quakerbridge%20Rd%2C%20Mercerville%2C%20NJ%2008619&t=&z=13&ie=UTF8&iwloc=&output=embed"
               allowFullScreen
             />
           </div>

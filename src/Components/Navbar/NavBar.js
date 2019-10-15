@@ -16,7 +16,7 @@ export default class NavBar extends React.Component {
             <a href="/#home" className="logo">
               {" "}
               <Header className={"logo"} as="h1">
-                MontgomeryHacks
+                QuakerBridgeHacks
               </Header>
             </a>
           </Navbar.Brand>

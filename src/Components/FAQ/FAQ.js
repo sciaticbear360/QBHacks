@@ -175,7 +175,7 @@ export default class FAQ extends React.Component {
                 <Accordion.Collapse eventKey="7">
                   <Card.Body>
                     <Header className={"answer-header"}>
-                    Please reach out to <a href="mailto:contact@montgomeryhacks.com">contact@montgomeryhacks.com</a>
+                    Please reach out to <a href="mailto:contact@QBHacks.com">contact@QBHacks.com</a>
                     </Header>
                   </Card.Body>
                 </Accordion.Collapse>

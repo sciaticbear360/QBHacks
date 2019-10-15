@@ -22,13 +22,13 @@ export default class Schedule extends React.Component {
             <div className={"email-contain"}>
               <Header className={"email"}>
                 Contact us:{" "}
-                <a href="mailto:contact@montgomeryhacks.com">
-                  contact@montgomeryhacks.com
+                <a href="mailto:contact@QBHacks.com">
+                  contact@QBHacks.com
                 </a>
               </Header>
             </div>
             <div className={"trade-mark"}>
-                <summary>© MontgomeryHacks 2019. All Rights Reserved.</summary>
+                <summary>© QuakerBridgeHacks 2019. All Rights Reserved.</summary>
                 <p className={"credits"}> - By <a href={"https://www.linkedin.com/in/rohan-deshpande-994b23160/"}>Rohan Deshpande</a>. All Rights Reserved.</p>
             </div>
           </div>
