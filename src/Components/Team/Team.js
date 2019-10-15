@@ -3,7 +3,7 @@ import { Header, Grid } from "semantic-ui-react";
 import "./Team.css";
 import Person from "./Person";
 import Rahul from './people/rahul.jpg';
-import Daniel from './people/daniel.jpg';
+import Daniel from './people/daniel-face.jpg';
 import Jinal from './people/new.jpg';
 import Rohan from './people/rohan.jpg';
 import Darshil from './people/darshil.jpeg';
