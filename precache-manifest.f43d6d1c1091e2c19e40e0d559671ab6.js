@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "96f36b45283ac31d123e6f4ee114269a",
+    "revision": "faaaf1326c847e2d09566c80dd303d1c",
     "url": "/QBHacks/index.html"
   },
   {
