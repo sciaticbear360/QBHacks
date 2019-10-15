@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Header, Button,Image } from "semantic-ui-react";
 import "./HomePage.css";
-import Logo from '../Images/logo.png';
+import Logo from './logo1.png';
 export default class HomePage extends React.Component {
   render() {
     return (

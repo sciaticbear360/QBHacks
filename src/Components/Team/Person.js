@@ -25,9 +25,10 @@ const Person = props => {
         </Grid.Row>
         <Grid.Row>
           <div className={"person-link"}>
-            <Icon className={"person-link-icon"} size={"huge"} name={"linkedin"} color={"grey"}>
-              <a href={props.linkedin}></a>
+           <a rel="noopener noreferrer"  target="_blank" href={props.link}> <Icon className={"person-link-icon"}  size={"huge"} name={"linkedin"} color={"grey"}>
+              
             </Icon>
+            </a>
           </div>
         </Grid.Row>
       </Grid>

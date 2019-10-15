@@ -31,6 +31,7 @@ export default class Team extends React.Component {
                     role1={"President & Founder"}
                     role2={"Director of Technology"}
                     role3={"Website Developer"}
+                    link={"https://www.linkedin.com/in/rohan-deshpande-994b23160/"}
                   ></Person>
                 </Grid.Column>
                 
@@ -44,7 +45,7 @@ export default class Team extends React.Component {
                     name={"Aarav Solanki"}
                     role1={"Organizer"}
                     role2={"Director of Logistics"}
-                    
+                    link={"https://www.linkedin.com/in/aarav-solanki-a94487175/"}
                   ></Person>
                 </Grid.Column>
                 <Grid.Column>
@@ -57,6 +58,7 @@ export default class Team extends React.Component {
                     image={Darshil}
                     role1={"Organizer"}
                     role2={"Director of Marketing"}
+                    link={"https://www.linkedin.com/in/darshil-patel-62aa38194/"}
                   ></Person>
                 </Grid.Column>
               </Grid.Row>
@@ -68,8 +70,8 @@ export default class Team extends React.Component {
                       "https://react.semantic-ui.com/images/wireframe/square-image.png"
                     }
                     size={"small"}
-                    name={"Guilherme"}
-                    image={Gui}
+                    name={"Nabeel Ahmed"}
+                 
                     role1={"Organizer"}
                     role2={"Director of UX/UI Designer"}
                   ></Person>
@@ -84,6 +86,7 @@ export default class Team extends React.Component {
                     name={"Daniel Baumgartner"}
                     role1={"Organizer"}
                     role2={"Director of Finance"}
+                    link={"https://www.linkedin.com/in/daniel-baumgartner-93b6a8192/"}
                   ></Person>
                 </Grid.Column>
                 <Grid.Column>
@@ -96,15 +99,25 @@ export default class Team extends React.Component {
                     image={Jinal}
                     role1={"Organizer"}
                     role2={"Workshop Coordinator"}
-                    
+                    link={"https://www.linkedin.com/in/jinalshah2002/"}
                   ></Person>
                 </Grid.Column>
               </Grid.Row>
-              <Grid.Row coloums={2}>
-              <Grid.Column>
+              <Grid.Row>
+                <Grid.Column>
+                <Person
+                    image={
+                      Gui
+                    }
+                    size={"small"}
+                    name={"Guilherme"}
+                    role1={"Organizer"}
+                    role2={"UX/UI Designer"}
+                    
+                  ></Person>
                 </Grid.Column>
                 <Grid.Column>
-                  <Person
+                <Person
                     image={
                       Rahul
                     }
@@ -112,10 +125,24 @@ export default class Team extends React.Component {
                     name={"Rahul Shah"}
                     role1={"Organizer"}
                     role2={"Outreach"}
-                    
+                    link={"https://www.linkedin.com/in/rsha256/"}
+                  ></Person>
+                </Grid.Column>
+                <Grid.Column>
+                  <Person
+                   
+                    size={"small"}
+                    name={"Krish Thawani"}
+                    image={
+                      "https://react.semantic-ui.com/images/wireframe/square-image.png"
+                    }
+                    role1={"Organizer"}
+                    role2={"Outreach"}
+                    link={"https://www.linkedin.com/in/krish-thawani-36a2a4176/"}
                   ></Person>
                 </Grid.Column>
               </Grid.Row>
+            
             </Grid>
           </div>
         </div>

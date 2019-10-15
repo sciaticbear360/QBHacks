@@ -16,7 +16,7 @@ export default class Schedule extends React.Component {
                   Interested in sponsoring our hackathon?
                   <br/>
                   <br/>
-                  Send us an email at <a href="mailto:sponsor@montgomeryhacks.com">sponsor@QBHacks.com</a>
+                  Send us an email at <a href="mailto:sponsor@qbhacks.com">sponsor@qbhacks.com</a>
 
               </Header>
           </div>

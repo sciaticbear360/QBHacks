@@ -22,8 +22,8 @@ export default class Schedule extends React.Component {
             <div className={"email-contain"}>
               <Header className={"email"}>
                 Contact us:{" "}
-                <a href="mailto:contact@QBHacks.com">
-                  contact@QBHacks.com
+                <a href="mailto:contact@qbhacks.com">
+                 contact@qbhacks.com
                 </a>
               </Header>
             </div>
