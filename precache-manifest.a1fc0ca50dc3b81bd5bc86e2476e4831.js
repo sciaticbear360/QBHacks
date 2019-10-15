@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ff068dae63364516e118f57df1946082",
+    "revision": "314ad990e23434ebd60eef0d1045c78b",
     "url": "/QBHacks/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/QBHacks/static/css/2.789b6b35.chunk.css"
   },
   {
-    "revision": "7f68f13111b6c2ca4462",
+    "revision": "e37374604484b6c3c0fb",
     "url": "/QBHacks/static/css/main.9cbd98e1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/QBHacks/static/js/2.0123c7db.chunk.js"
   },
   {
-    "revision": "7f68f13111b6c2ca4462",
-    "url": "/QBHacks/static/js/main.b580e60a.chunk.js"
+    "revision": "e37374604484b6c3c0fb",
+    "url": "/QBHacks/static/js/main.094175de.chunk.js"
   },
   {
     "revision": "4ee078b35e5bf44e09f0",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/QBHacks/static/media/creative.cb573310.svg"
   },
   {
-    "revision": "7bcdd163bcf42025b59274ae8740639c",
-    "url": "/QBHacks/static/media/daniel.7bcdd163.jpg"
+    "revision": "750d663db38d925e47547cc4dfc230b7",
+    "url": "/QBHacks/static/media/daniel-face.750d663d.jpg"
   },
   {
     "revision": "98206cdfea69bde82f58ee50dd992d52",
