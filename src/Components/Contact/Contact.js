@@ -14,10 +14,17 @@ export default class Schedule extends React.Component {
               <Icon size="huge" inverted color="grey" name={"twitter"} />
             </div>
             <div className={"socials"}>
-              <Icon size="huge" inverted color="grey" name={"discord"} />
+            <a rel="noopener noreferrer"  target="_blank" href={"https://discord.gg/uPtJZmp"}>
+              <Icon size="huge" inverted color="grey" name={"discord"}>
+
+              </Icon>
+              </a>
             </div>
             <div className={"socials"}>
-              <Icon size="huge" inverted color="grey" name={"linkedin"} />
+            <a rel="noopener noreferrer"  target="_blank" href={"https://www.linkedin.com/company/quakerbridgehacks/"}>
+               <Icon className={"person-link-icon"}  size={"huge"} name={"linkedin"} color={"grey"}>
+              </Icon>
+               </a>
             </div>
             <div className={"email-contain"}>
               <Header className={"email"}>

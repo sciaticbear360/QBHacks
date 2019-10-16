@@ -45,7 +45,7 @@ export default class Team extends React.Component {
                     name={"Aarav Solanki"}
                     role1={"Organizer"}
                     role2={"Director of Logistics"}
-                    link={"https://www.linkedin.com/in/aarav-solanki-a94487175/"}
+                    link={"https://www.linkedin.com/in/aaravsinh-solanki-652319195/"}
                   ></Person>
                 </Grid.Column>
                 <Grid.Column>
@@ -71,7 +71,7 @@ export default class Team extends React.Component {
                     }
                     size={"small"}
                     name={"Nabeel Ahmed"}
-                 
+                    link={"https://www.linkedin.com/in/nabeel-ahmed-773b78188/"}
                     role1={"Organizer"}
                     role2={"Director of UX/UI Designer"}
                   ></Person>
