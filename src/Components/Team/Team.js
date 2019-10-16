@@ -2,13 +2,12 @@ import React from "react";
 import { Header, Grid } from "semantic-ui-react";
 import "./Team.css";
 import Person from "./Person";
-import Rahul from "./people/rahul.jpg";
-import Daniel from "./people/daniel-face.jpg";
-import Jinal from "./people/new.jpg";
-import Rohan from "./people/rohan.jpg";
-import Darshil from "./people/darshil.jpeg";
-import Gui from "./people/gui-new.jpg";
-import Aarav from "./people/aarav-new1.jpg";
+import Rahul from "./people/rahul-small.png";
+import Daniel from "./people/daniel-small.png";
+import Jinal from "./people/jinal-small.png";
+import Rohan from "./people/rohan-small.png";
+import Darshil from "./people/darshil-small.png";
+import Aarav from "./people/aarav-small.png";
 export default class Team extends React.Component {
   render() {
     return (
