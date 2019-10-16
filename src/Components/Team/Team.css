@@ -33,7 +33,18 @@
     margin-left: auto;
     margin-right: auto;
     transition: transform 0.6s;
-
+}
+@media only screen and (max-width: 700px)
+{
+    .ui.image.person-image
+    {
+        max-width: 60%;
+        width: auto;
+    }
+    .ui.grid>.row>.column>img, .ui.grid>.row>img
+    {
+        max-width: 60%;
+    }
 }
 .ui.image.person-image:hover {
     transform: scale(1.1) perspective(0.5px);
@@ -43,7 +54,7 @@
     font-family: 'Electrolize', sans-serif;
     color:goldenrod;
     font-size:2em;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;

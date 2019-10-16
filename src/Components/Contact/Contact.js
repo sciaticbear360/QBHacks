@@ -22,7 +22,7 @@ export default class Schedule extends React.Component {
             </div>
             <div className={"socials"}>
             <a rel="noopener noreferrer"  target="_blank" href={"https://www.linkedin.com/company/quakerbridgehacks/"}>
-               <Icon className={"person-link-icon"}  size={"huge"} name={"linkedin"} color={"grey"}>
+               <Icon size="huge" inverted color="grey" name={"linkedin"}>
               </Icon>
                </a>
             </div>
