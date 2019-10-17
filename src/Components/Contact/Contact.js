@@ -29,14 +29,14 @@ export default class Schedule extends React.Component {
             <div className={"email-contain"}>
               <Header className={"email"}>
                 Contact us:{" "}
-                <a href="mailto:contact@qbhacks.com">
-                 contact@qbhacks.com
+                <a href="mailto:contact@qbhacks.org">
+                 contact@qbhacks.org 
                 </a>
               </Header>
             </div>
             <div className={"trade-mark"}>
                 <summary>© QuakerBridgeHacks 2019. All Rights Reserved.</summary>
-                <p className={"credits"}> - By <a href={"https://www.linkedin.com/in/rohan-deshpande-994b23160/"}>Rohan Deshpande</a>. All Rights Reserved.</p>
+                <p className={"credits"}> - By <a rel="noopener noreferrer"  target="_blank" href={"https://www.linkedin.com/in/rohan-deshpande-994b23160/"}>Rohan Deshpande</a>. All Rights Reserved.</p>
             </div>
           </div>
         </div>

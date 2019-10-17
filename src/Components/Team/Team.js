@@ -8,6 +8,7 @@ import Jinal from "./people/jinal-small.png";
 import Rohan from "./people/rohan-small.png";
 import Darshil from "./people/darshil-small.png";
 import Aarav from "./people/aarav-small.png";
+import Naab from "./people/nabeel.jpg";
 export default class Team extends React.Component {
   render() {
     return (
@@ -76,6 +77,7 @@ export default class Team extends React.Component {
                     }
                     size={"small"}
                     name={"Nabeel Ahmed"}
+                    image={Naab}
                     link={"https://www.linkedin.com/in/nabeel-ahmed-773b78188/"}
                     role1={"Organizer"}
                     role2={"Director of UX/UI Designer"}
