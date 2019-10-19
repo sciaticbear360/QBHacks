@@ -15,7 +15,7 @@ export default class About extends React.Component {
           <Grid.Column>
             <Grid.Row>
               <Fade bottom>
-              <Header className={"details-text"}>Date: December 7th, 2019</Header>
+              <Header className={"details-text"}>Date: December 1, 2019</Header>
            </Fade>
             </Grid.Row>
             <Grid.Row>
