@@ -19,7 +19,7 @@ export default class Schedule extends React.Component {
                 <Segment className={"track-bubble"}>
                   <div className={"track-content container"}>
                     <div className={"track-header-div"}>
-                      <Header className={"track-header"}>Finance</Header>
+                      <Header className={"track-header"}>FinTech</Header>
                     </div>
                     <div className={"track-image-div"}>
                       <Image className={"track-image"} src={Finance} />
@@ -27,10 +27,14 @@ export default class Schedule extends React.Component {
                     <div className={"track-description-div"}>
                       <Header className={"track-description"}>
                         {" "}
-                        While combining finance with next generation
-                        technologies, this track focuses on advancing finance
-                        one line at a time. Let your creativity fly, and let’s
-                        see how you can revolutionize the financial industry!
+                        This track combines our daily financial expenses with modern and next generation technologies
+                        <br></br>
+                        <br></br>
+                        With the main goal of improving banking experience and
+                        making the right choices of investments, this track
+                        focuses on bringing efficiency in financial transactions
+                        and analyzing stock markets. We look forward to seeing how you
+                        can revolutionize the financial industry!
                       </Header>
                     </div>
                   </div>
@@ -48,12 +52,13 @@ export default class Schedule extends React.Component {
                     <div className={"track-description-div"}>
                       <Header className={"track-description"}>
                         This track combines the classroom learning environment
-                        with modern and next generation technologies. With a
-                        main goal of advancing the efficiency of the classroom,
-                        this track focuses on making education accessible and
-                        effective. Education is how we start, and we look
-                        forward to seeing how you can change the way we learn in
-                        the classroom!
+                        with modern and next generation technologies. <br></br>
+                        <br></br>
+                        With the main goal of advancing the efficiency of the
+                        classroom, this track focuses on making education
+                        accessible and effective. Education is how we start, and
+                        we look forward to seeing how you can change the way we
+                        learn in the classroom!
                       </Header>
                     </div>
                   </div>
@@ -63,7 +68,7 @@ export default class Schedule extends React.Component {
                 <Segment className={"track-bubble"}>
                   <div className={"track-content container"}>
                     <div className={"track-header-div"}>
-                      <Header className={"track-header"}>Health</Header>
+                      <Header className={"track-header"}>Health Tech</Header>
                     </div>
                     <div className={"track-image-div"}>
                       <Image className={"track-image"} src={Health} />
@@ -72,11 +77,13 @@ export default class Schedule extends React.Component {
                       <Header className={"track-description"}>
                         This track is a junction of identifying creative
                         solutions and developing transformative technologies
-                        that impact the medical industry positively. With the
-                        goal of advancing modern medicine, this track focuses on
-                        making healthcare accessible and diseases avoidable. We
-                        look forward to seeing how you can revolutionize modern
-                        medicine!
+                        that impact the medical industry positively.
+                        <br></br>
+                        <br></br>
+                        With the main goal of advancing modern medicine, this track
+                        focuses on making healthcare accessible and diseases
+                        avoidable. We look forward to seeing how you can
+                        revolutionize modern medicine!
                       </Header>
                     </div>
                   </div>

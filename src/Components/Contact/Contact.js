@@ -8,10 +8,14 @@ export default class Schedule extends React.Component {
         <div className={"Contactpage container"}>
           <div className={"social-links"}>
             <div className={"socials"}>
+            <a rel="noopener noreferrer"  target="_blank" href={"https://www.instagram.com/QuakerBridgeHacks/"}>
               <Icon size="huge" inverted color="grey" name={"instagram"} />
+              </a>
             </div>
             <div className={"socials"}>
+            <a rel="noopener noreferrer"  target="_blank" href={"https://discord.gg/uPtJZmp"}>
               <Icon size="huge" inverted color="grey" name={"twitter"} />
+              </a>
             </div>
             <div className={"socials"}>
             <a rel="noopener noreferrer"  target="_blank" href={"https://discord.gg/uPtJZmp"}>

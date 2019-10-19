@@ -35,3 +35,11 @@
         margin-right: auto;
     }
 }
+
+.ui.image.sponsor-image
+{
+  transition: 0.6s;
+}
+.ui.image.sponsor-image:hover {
+  transform: scale(1.1) perspective(0.5px);
+}

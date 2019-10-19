@@ -9,6 +9,7 @@ import Rohan from "./people/rohan-small.png";
 import Darshil from "./people/darshil-small.png";
 import Aarav from "./people/aarav-small.png";
 import Naab from "./people/nabeel.jpg";
+import Krish from "./people/krish.jpg";
 export default class Team extends React.Component {
   render() {
     return (
@@ -80,7 +81,7 @@ export default class Team extends React.Component {
                     image={Naab}
                     link={"https://www.linkedin.com/in/nabeel-ahmed-773b78188/"}
                     role1={"Organizer"}
-                    role2={"Director of UX/UI Designer"}
+                    role2={"Director of UX/UI Design"}
                   ></Person>
                 </Grid.Column>
                 <Grid.Column>
@@ -113,36 +114,33 @@ export default class Team extends React.Component {
                 </Grid.Column>
               </Grid.Row>
               <Grid.Row>
-                <Grid.Column></Grid.Column>
+               
+                
                 <Grid.Column>
                   <Person
                     image={Rahul}
                     size={"small"}
                     name={"Rahul Shah"}
                     role1={"Organizer"}
-                    role2={"Outreach"}
+                    role2={"Co-Lead for Sponsorships"}
                     link={"https://www.linkedin.com/in/rsha256/"}
                   ></Person>
                 </Grid.Column>
-                <Grid.Column></Grid.Column>
-              </Grid.Row>
-              <Grid.Row>
-                <Grid.Column></Grid.Column>
+                <Grid.Column></Grid.Column> 
                 <Grid.Column>
                   <Person
                     size={"small"}
                     name={"Krish Thawani"}
                     image={
-                      "https://react.semantic-ui.com/images/wireframe/square-image.png"
+                      Krish
                     }
                     role1={"Organizer"}
-                    role2={"Outreach"}
+                    role2={"Co-Lead for Sponsorships"}
                     link={
                       "https://www.linkedin.com/in/krish-thawani-36a2a4176/"
                     }
                   ></Person>
                 </Grid.Column>
-                <Grid.Column></Grid.Column>
               </Grid.Row>
             </Grid>
           </div>

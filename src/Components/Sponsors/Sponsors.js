@@ -1,6 +1,7 @@
 import React from "react";
-import { Header, Grid } from "semantic-ui-react";
+import { Header, Grid,Image } from "semantic-ui-react";
 import "./Sponsors.css";
+import QBLC from './Sponsor/QBLC.jpg';
 export default class Schedule extends React.Component {
   render() {
     return (
@@ -17,7 +18,19 @@ export default class Schedule extends React.Component {
                   <br/>
                   <br/>
                   Shoot us an email at <a href="mailto:sponsor@qbhacks.org">sponsor@qbhacks.org</a>
-
+                  <div className={"sponsor-grid"}>
+                    <Grid stackable={true} columns={3}>
+                        <Grid.Column>
+                        </Grid.Column>
+                        <Grid.Column>
+                        <a rel="noopener noreferrer"  target="_blank" href={"https://www.quaker-bridge.com/"}> 
+                          <Image className={"sponsor-image"} src={QBLC}></Image>
+                          </a>
+                        </Grid.Column>
+                        <Grid.Column>
+                        </Grid.Column>
+                    </Grid>
+                  </div>
               </Header>
           </div>
         </div>

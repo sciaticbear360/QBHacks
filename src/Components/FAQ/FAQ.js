@@ -181,6 +181,25 @@ export default class FAQ extends React.Component {
                 </Accordion.Collapse>
               </Card>
             </div>
+            <div className={"questions-below"}>
+              <Card>
+                <Accordion.Toggle as={Card.Header} eventKey="8">
+                  <Header className={"question-header"}>
+                    Want to Sponsor us?
+                    <span className={"icon-holder"}>
+                      <Icon name={"arrow down"} />
+                    </span>
+                  </Header>
+                </Accordion.Toggle>
+                <Accordion.Collapse eventKey="8">
+                  <Card.Body>
+                    <Header className={"answer-header"}>
+                    Please reach out to <a href="mailto:sponsor@qbhacks.org">sponsor@qbhacks.org</a>
+                    </Header>
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+            </div>
           </Accordion>
         </div>
       </section>

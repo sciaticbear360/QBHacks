@@ -2,6 +2,7 @@ import React from "react";
 import { Grid, Header, Button,Image } from "semantic-ui-react";
 import "./HomePage.css";
 import Logo from './logo1.png';
+import Fade from 'react-reveal/Fade';
 export default class HomePage extends React.Component {
   render() {
     return (
@@ -10,22 +11,29 @@ export default class HomePage extends React.Component {
           <Grid columns={2} className={"home-grid"} stackable={true}>
             <Grid.Row>
               <Grid.Column>
+              <Fade bottom>
                 <Image className={"logo"} src={Logo}>
 
                 </Image>
+                </Fade>
               </Grid.Column>
               <Grid.Column>
+                <Fade bottom>
                 <div className={"container"}>
                   <Grid.Row>
+                   
                     <Header className={"hook"}>Think Big. Code Big.</Header>
+                 
                   </Grid.Row>
 
                   <Grid.Row>
+                  
                     <Header className={"name"}>QuakerBridgeHacks</Header>
+                    
                   </Grid.Row>
 
                   <Grid.Row>
-                    <Header className={"date"}>November 16, 2019</Header>
+                    <Header className={"date"}>December 7th, 2019</Header>
                   </Grid.Row>
                   <Grid.Row>
                     <div className={"reg-button-contain"}>
@@ -33,6 +41,7 @@ export default class HomePage extends React.Component {
                     </div>
                   </Grid.Row>
                 </div>
+                </Fade>
               </Grid.Column>
             </Grid.Row>
           </Grid>

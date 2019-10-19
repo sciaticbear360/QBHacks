@@ -1,6 +1,7 @@
 import React from "react";
 import { Grid, Header} from "semantic-ui-react";
 import "./Details.css";
+import Fade from 'react-reveal/Fade';
 export default class About extends React.Component {
   render() {
     return (
@@ -13,21 +14,29 @@ export default class About extends React.Component {
         <Grid columns={2} className={"detail-grid"} stackable={true}>
           <Grid.Column>
             <Grid.Row>
-              <Header className={"details-text"}>Date: November 16, 2019</Header>
+              <Fade bottom>
+              <Header className={"details-text"}>Date: December 7th, 2019</Header>
+           </Fade>
             </Grid.Row>
             <Grid.Row>
+            <Fade bottom>
               <Header className={"details-text"} >Time: 8am - 8pm </Header>
+            </Fade>
             </Grid.Row>
             <Grid.Row>
+            <Fade bottom>
               <Header  className={"details-text"}>
                 Location: 4044 Quakerbridge Rd, Mercerville, NJ 08619
               </Header>
+              </Fade>
             </Grid.Row>
             <Grid.Row>
+            <Fade bottom>
               <Header  className={"details-text"}>
                 Participation: Anyone from high school to college students, who love STEM
                  can participate in this event.
               </Header>
+              </Fade>
             </Grid.Row>
           </Grid.Column>
 

@@ -1,14 +1,18 @@
 import React from "react";
 import {  Header} from "semantic-ui-react";
 import "./about.css";
+import Fade from 'react-reveal/Fade';
 export default class About extends React.Component {
   render() {
     return (
       <section id={"about"}>
         <div className={"aboutpage container"}>
           <div className={"aboutheader-contain"}>
+          <Fade bottom>
             <Header className={"about-head"}>About</Header>
+            </Fade>
           </div>
+          <Fade bottom>
           <div className={"aboutdes-contain"}>
             <Header className={"about-des"}>
               In QuakerBridgeHacks (QBHacks), individuals, regardless of experience, are
@@ -21,6 +25,7 @@ export default class About extends React.Component {
               future, bit by bit and byte by byte.
             </Header>
           </div>
+          </Fade>
         </div>
       </section>
     );
