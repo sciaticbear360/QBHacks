@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.820acd37.chunk.css",
-    "main.js": "/static/js/main.264c7b67.chunk.js",
-    "main.js.map": "/static/js/main.264c7b67.chunk.js.map",
+    "main.css": "/static/css/main.e54db46e.chunk.css",
+    "main.js": "/static/js/main.5963756a.chunk.js",
+    "main.js.map": "/static/js/main.5963756a.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.3e36c46d.js",
     "runtime~main.js.map": "/static/js/runtime~main.3e36c46d.js.map",
     "static/css/2.faaa52d3.chunk.css": "/static/css/2.faaa52d3.chunk.css",
-    "static/js/2.60f51ba1.chunk.js": "/static/js/2.60f51ba1.chunk.js",
-    "static/js/2.60f51ba1.chunk.js.map": "/static/js/2.60f51ba1.chunk.js.map",
+    "static/js/2.2815bc4b.chunk.js": "/static/js/2.2815bc4b.chunk.js",
+    "static/js/2.2815bc4b.chunk.js.map": "/static/js/2.2815bc4b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0b5c5317d0d62d42567c9734867fd41b.js": "/precache-manifest.0b5c5317d0d62d42567c9734867fd41b.js",
+    "precache-manifest.c61d412a528323d789d96b7dbc8f430e.js": "/precache-manifest.c61d412a528323d789d96b7dbc8f430e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.faaa52d3.chunk.css.map": "/static/css/2.faaa52d3.chunk.css.map",
-    "static/css/main.820acd37.chunk.css.map": "/static/css/main.820acd37.chunk.css.map",
+    "static/css/main.e54db46e.chunk.css.map": "/static/css/main.e54db46e.chunk.css.map",
     "static/media/QBLC.jpg": "/static/media/QBLC.9fb616d6.jpg",
     "static/media/aarav-small.png": "/static/media/aarav-small.9965263f.png",
     "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff",
@@ -26,6 +26,7 @@
     "static/media/logo1.png": "/static/media/logo1.ef880ddc.png",
     "static/media/nabeel.jpg": "/static/media/nabeel.18356525.jpg",
     "static/media/rahul-small.png": "/static/media/rahul-small.203c43ff.png",
-    "static/media/rohan-small.png": "/static/media/rohan-small.228dcc84.png"
+    "static/media/rohan-small.png": "/static/media/rohan-small.228dcc84.png",
+    "static/media/wolf.png": "/static/media/wolf.2dddfc19.png"
   }
 }
