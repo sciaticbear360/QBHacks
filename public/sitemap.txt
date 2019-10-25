@@ -1,2 +1,9 @@
-https://www.qbhacks.org/index.html
 https://www.qbhacks.org
+https://qbhacks.org/#about
+https://qbhacks.org/#details
+https://qbhacks.org/#schedule
+https://qbhacks.org/#Tracks
+https://qbhacks.org/#FAQ
+https://qbhacks.org/#Team
+https://qbhacks.org/#Sponsors
+https://qbhacks.org/#Contact

@@ -2,6 +2,7 @@ import React from "react";
 import { Header, Grid,Image } from "semantic-ui-react";
 import "./Sponsors.css";
 import QBLC from './Sponsor/QBLC.jpg';
+import Wolf from './Sponsor/wolf.png';
 export default class Schedule extends React.Component {
   render() {
     return (
@@ -19,16 +20,18 @@ export default class Schedule extends React.Component {
                   <br/>
                   Shoot us an email at <a href="mailto:sponsor@qbhacks.org">sponsor@qbhacks.org</a>
                   <div className={"sponsor-grid"}>
-                    <Grid stackable={true} columns={3}>
+                    <Grid stackable={true} columns={2}>
                         <Grid.Column>
+                        <a rel="noopener noreferrer"  target="_blank" href={"https://wolfram.com/"}> 
+                          <Image className={"sponsor-image"} src={Wolf}></Image>
+                          </a>
                         </Grid.Column>
                         <Grid.Column>
                         <a rel="noopener noreferrer"  target="_blank" href={"https://www.quaker-bridge.com/"}> 
                           <Image className={"sponsor-image"} src={QBLC}></Image>
                           </a>
                         </Grid.Column>
-                        <Grid.Column>
-                        </Grid.Column>
+                        
                     </Grid>
                   </div>
               </Header>
