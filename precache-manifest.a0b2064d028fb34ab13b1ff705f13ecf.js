@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "212f8eb3e1c5688173e0a4a900cbff96",
+    "revision": "94bb485bae1f1131d8aa8af42d311186",
     "url": "/index.html"
   },
   {
-    "revision": "92565c516b913689b55a",
+    "revision": "75bef8095ad9dac1a3b4",
     "url": "/static/css/2.faaa52d3.chunk.css"
   },
   {
-    "revision": "e81b45ff4c74b025910d",
-    "url": "/static/css/main.e54db46e.chunk.css"
+    "revision": "ba257d3fd2148e960c4e",
+    "url": "/static/css/main.6c685c65.chunk.css"
   },
   {
-    "revision": "92565c516b913689b55a",
-    "url": "/static/js/2.6d9fe74f.chunk.js"
+    "revision": "75bef8095ad9dac1a3b4",
+    "url": "/static/js/2.fc55448e.chunk.js"
   },
   {
-    "revision": "e81b45ff4c74b025910d",
-    "url": "/static/js/main.47c1fcf0.chunk.js"
+    "revision": "ba257d3fd2148e960c4e",
+    "url": "/static/js/main.672d282b.chunk.js"
   },
   {
     "revision": "15cd7a5095344f50487a",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/daniel-small.f3bc7b5d.png"
   },
   {
-    "revision": "64bfaea7ee6817f738cb5e49ca7af957",
-    "url": "/static/media/darshil-small.64bfaea7.png"
+    "revision": "fc38bd5fe862f3903a4be0a74e7c2f3f",
+    "url": "/static/media/darshil-new.fc38bd5f.jpg"
   },
   {
     "revision": "9c74e172f87984c48ddf5c8108cabe67",
@@ -136,12 +136,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/outline-icons.ef60a4f6.woff"
   },
   {
-    "revision": "203c43ff0cc62c9cf6d704efb2a450e9",
-    "url": "/static/media/rahul-small.203c43ff.png"
-  },
-  {
     "revision": "228dcc843a02f48ab0fdf876bf0cf75a",
     "url": "/static/media/rohan-small.228dcc84.png"
+  },
+  {
+    "revision": "0d331a682097d47a1b39723d369d839c",
+    "url": "/static/media/ushack.0d331a68.png"
+  },
+  {
+    "revision": "7b08258be5923b3e952e057f6b634c4d",
+    "url": "/static/media/vent.7b08258b.png"
   },
   {
     "revision": "2dddfc19a052825b416e4979bb4f7e61",
