@@ -13,31 +13,33 @@ export default class About extends React.Component {
         </div>
         <Grid columns={2} className={"detail-grid"} stackable={true}>
           <Grid.Column>
+            <Fade Botton>
             <Grid.Row>
-              <Fade bottom>
+              
               <Header className={"details-text"}>Date: December 1, 2019</Header>
-           </Fade>
+           
             </Grid.Row>
             <Grid.Row>
-            <Fade bottom>
+            
               <Header className={"details-text"} >Time: 8am - 8pm </Header>
-            </Fade>
+            
             </Grid.Row>
             <Grid.Row>
-            <Fade bottom>
+            
               <Header  className={"details-text"}>
                 Location: 4044 Quakerbridge Rd, Mercerville, NJ 08619
               </Header>
-              </Fade>
+              
             </Grid.Row>
             <Grid.Row>
-            <Fade bottom>
+            
               <Header  className={"details-text"}>
                 Participation: Anyone from high school to college students, who love STEM
                  can participate in this event.
               </Header>
-              </Fade>
+              
             </Grid.Row>
+            </Fade>
           </Grid.Column>
 
           <Grid.Column>

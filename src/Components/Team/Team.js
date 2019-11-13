@@ -2,11 +2,10 @@ import React from "react";
 import { Header, Grid } from "semantic-ui-react";
 import "./Team.css";
 import Person from "./Person";
-import Rahul from "./people/rahul-small.png";
 import Daniel from "./people/daniel-small.png";
 import Jinal from "./people/jinal-small.png";
 import Rohan from "./people/rohan-small.png";
-import Darshil from "./people/darshil-small.png";
+import Darshil from "./people/darshil-new.jpg";
 import Aarav from "./people/aarav-small.png";
 import Naab from "./people/nabeel.jpg";
 import Krish from "./people/krish.jpg";
@@ -114,19 +113,8 @@ export default class Team extends React.Component {
                 </Grid.Column>
               </Grid.Row>
               <Grid.Row>
-               
-                
-                <Grid.Column>
-                  <Person
-                    image={Rahul}
-                    size={"small"}
-                    name={"Rahul Shah"}
-                    role1={"Organizer"}
-                    role2={"Co-Lead for Sponsorships"}
-                    link={"https://www.linkedin.com/in/rsha256/"}
-                  ></Person>
-                </Grid.Column>
-                <Grid.Column></Grid.Column> 
+              <Grid.Column>
+              </Grid.Column>
                 <Grid.Column>
                   <Person
                     size={"small"}
@@ -135,12 +123,14 @@ export default class Team extends React.Component {
                       Krish
                     }
                     role1={"Organizer"}
-                    role2={"Co-Lead for Sponsorships"}
+                    role2={"Outreach Director"}
                     link={
                       "https://www.linkedin.com/in/krish-thawani-36a2a4176/"
                     }
                   ></Person>
                 </Grid.Column>
+                <Grid.Column>
+              </Grid.Column>
               </Grid.Row>
             </Grid>
           </div>

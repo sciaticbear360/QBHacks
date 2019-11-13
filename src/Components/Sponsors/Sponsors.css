@@ -43,3 +43,20 @@
 .ui.image.sponsor-image:hover {
   transform: scale(1.1) perspective(0.5px);
 }
+.partnerheader-contain
+{
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3em;
+}
+.ui.header.Partner-head {
+  font-family: "Electrolize", sans-serif;
+  color: #e54f2f;
+  font-size: 5rem;
+  text-align: center;
+}
+@media only screen and (max-width: 700px) {
+  .ui.header.Partner-head {
+    font-size: 3.5rem;
+  }
+}
