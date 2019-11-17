@@ -34,7 +34,7 @@ export default class About extends React.Component {
             <Grid.Row>
             
               <Header  className={"details-text"}>
-                Participation: Anyone from high school to college students, who love STEM
+                Participation: Anyone from high school, who love STEM
                  can participate in this event.
               </Header>
               

@@ -11,6 +11,7 @@ import Ziplyne from "./Sponsor/ziplyne.png";
 import Password from "./Sponsor/onepassword.png";
 import Sashido from "./Sponsor/sashido.png";
 import AOPS from "./Sponsor/aops.png";
+import Cloud from "./Sponsor/cloudspoit.svg"
 export default class Schedule extends React.Component {
   render() {
     return (
@@ -98,8 +99,20 @@ export default class Schedule extends React.Component {
                     </Grid.Column>
                   </Grid.Row>
                   <Grid.Row columns={3}>
-                    <Grid.Column></Grid.Column>
                     <Grid.Column>
+                    <a
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        href={"https://cloudsploit.com/"}
+                      >
+                        <Image
+                          className={"sponsor-image"}
+                          src={Cloud}
+                        ></Image>
+                      </a>
+                    </Grid.Column>
+                    <Grid.Column>
+                      {" "}
                       <a
                         rel="noopener noreferrer"
                         target="_blank"
@@ -111,23 +124,15 @@ export default class Schedule extends React.Component {
                         ></Image>
                       </a>
                     </Grid.Column>
-                    <Grid.Column></Grid.Column>
-                  </Grid.Row>
-                  <Grid.Row columns={3}>
-                    <Grid.Column></Grid.Column>
                     <Grid.Column>
                       <a
                         rel="noopener noreferrer"
                         target="_blank"
                         href={"https://artofproblemsolving.com/"}
                       >
-                        <Image
-                          className={"sponsor-image"}
-                          src={AOPS}
-                        ></Image>
+                        <Image className={"sponsor-image"} src={AOPS}></Image>
                       </a>
                     </Grid.Column>
-                    <Grid.Column></Grid.Column>
                   </Grid.Row>
 
                   <div className={"partnerheader-contain"}>
