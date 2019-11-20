@@ -112,26 +112,6 @@ export default class Team extends React.Component {
                   ></Person>
                 </Grid.Column>
               </Grid.Row>
-              <Grid.Row>
-              <Grid.Column>
-              </Grid.Column>
-                <Grid.Column>
-                  <Person
-                    size={"small"}
-                    name={"Krish Thawani"}
-                    image={
-                      Krish
-                    }
-                    role1={"Organizer"}
-                    role2={"Outreach Director"}
-                    link={
-                      "https://www.linkedin.com/in/krish-thawani-36a2a4176/"
-                    }
-                  ></Person>
-                </Grid.Column>
-                <Grid.Column>
-              </Grid.Column>
-              </Grid.Row>
             </Grid>
           </div>
         </div>

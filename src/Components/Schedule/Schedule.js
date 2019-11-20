@@ -50,7 +50,7 @@ export default class Schedule extends React.Component {
                 </tr>
                 <tr>
                   
-                  <td>Workshop: Introduction to HTML/CSS and Javascript</td>
+                  <td>Workshop: Introduction to Python</td>
                   <td>12:00pm-1:00pm</td>
                 </tr>
                 <tr>

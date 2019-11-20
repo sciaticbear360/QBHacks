@@ -136,7 +136,7 @@ export default class FAQ extends React.Component {
                   <Card.Body>
                     <Header className={"answer-header"}>
                       Prizes may include technology gadgets, gift cards,
-                      software software subscriptions and other cool stuff!
+                      software subscriptions and other cool stuff!
                     </Header>
                   </Card.Body>
                 </Accordion.Collapse>

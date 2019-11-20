@@ -11,7 +11,9 @@ import Ziplyne from "./Sponsor/ziplyne.png";
 import Password from "./Sponsor/onepassword.png";
 import Sashido from "./Sponsor/sashido.png";
 import AOPS from "./Sponsor/aops.png";
-import Cloud from "./Sponsor/cloudspoit.svg"
+import Cloud from "./Sponsor/cloudspoit.svg";
+import If from "./Sponsor/ifix.png";
+import Balsamiq from "./Sponsor/balsamiq.png";
 export default class Schedule extends React.Component {
   render() {
     return (
@@ -131,6 +133,31 @@ export default class Schedule extends React.Component {
                         href={"https://artofproblemsolving.com/"}
                       >
                         <Image className={"sponsor-image"} src={AOPS}></Image>
+                      </a>
+                    </Grid.Column>
+                  </Grid.Row>
+                  <Grid.Row columns={3}>
+                    <Grid.Column>
+                    <a
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        href={"https://balsamiq.com/"}
+                      >
+                        <Image
+                          className={"sponsor-image"}
+                          src={Balsamiq}
+                        ></Image>
+                      </a>
+                    </Grid.Column>
+                    <Grid.Column>
+                    </Grid.Column>
+                    <Grid.Column>
+                      <a
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        href={"https://www.ifixit.com/"}
+                      >
+                        <Image className={"sponsor-image"} src={If}></Image>
                       </a>
                     </Grid.Column>
                   </Grid.Row>
