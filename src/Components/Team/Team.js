@@ -72,9 +72,6 @@ export default class Team extends React.Component {
               <Grid.Row>
                 <Grid.Column>
                   <Person
-                    image={
-                      "https://react.semantic-ui.com/images/wireframe/square-image.png"
-                    }
                     size={"small"}
                     name={"Nabeel Ahmed"}
                     image={Naab}
@@ -85,9 +82,6 @@ export default class Team extends React.Component {
                 </Grid.Column>
                 <Grid.Column>
                   <Person
-                    image={
-                      "https://react.semantic-ui.com/images/wireframe/square-image.png"
-                    }
                     size={"small"}
                     image={Daniel}
                     name={"Daniel Baumgartner"}
@@ -100,9 +94,6 @@ export default class Team extends React.Component {
                 </Grid.Column>
                 <Grid.Column>
                   <Person
-                    image={
-                      "https://react.semantic-ui.com/images/wireframe/square-image.png"
-                    }
                     size={"small"}
                     name={"Jinal Shah"}
                     image={Jinal}

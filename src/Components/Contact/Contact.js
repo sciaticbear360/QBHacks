@@ -13,12 +13,12 @@ export default class Schedule extends React.Component {
               </a>
             </div>
             <div className={"socials"}>
-            <a rel="noopener noreferrer"  target="_blank" href={"https://twitter.com/QBridgeHacks"}>
+            <a rel="noopener noreferrer"  target="_blank" href={"https://twitter.com/QBHackathon"}>
               <Icon size="huge" inverted color="grey" name={"twitter"} />
               </a>
             </div>
             <div className={"socials"}>
-            <a rel="noopener noreferrer"  target="_blank" href={"https://discord.gg/uPtJZmp"}>
+            <a rel="noopener noreferrer"  target="_blank" href={"https://discord.gg/b6WpjRc"}>
               <Icon size="huge" inverted color="grey" name={"discord"}>
 
               </Icon>

@@ -14,6 +14,8 @@ import AOPS from "./Sponsor/aops.png";
 import Cloud from "./Sponsor/cloudspoit.svg";
 import If from "./Sponsor/ifix.png";
 import Balsamiq from "./Sponsor/balsamiq.png";
+import Sketch from "./Sponsor/sketch.png";
+import Mac from "./Sponsor/mcafferys.png";
 export default class Schedule extends React.Component {
   render() {
     return (
@@ -67,7 +69,7 @@ export default class Schedule extends React.Component {
 
                   <Grid.Row columns={3}>
                     <Grid.Column>
-                      <a
+                      {/* <a
                         rel="noopener noreferrer"
                         target="_blank"
                         href={"https://www.ziplyne.com/"}
@@ -75,6 +77,16 @@ export default class Schedule extends React.Component {
                         <Image
                           className={"sponsor-image"}
                           src={Ziplyne}
+                        ></Image>
+                      </a> */}
+                      <a
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        href={"https://balsamiq.com/"}
+                      >
+                        <Image
+                          className={"sponsor-image"}
+                          src={Balsamiq}
                         ></Image>
                       </a>
                     </Grid.Column>
@@ -102,15 +114,12 @@ export default class Schedule extends React.Component {
                   </Grid.Row>
                   <Grid.Row columns={3}>
                     <Grid.Column>
-                    <a
+                      <a
                         rel="noopener noreferrer"
                         target="_blank"
                         href={"https://cloudsploit.com/"}
                       >
-                        <Image
-                          className={"sponsor-image"}
-                          src={Cloud}
-                        ></Image>
+                        <Image className={"sponsor-image"} src={Cloud}></Image>
                       </a>
                     </Grid.Column>
                     <Grid.Column>
@@ -141,27 +150,47 @@ export default class Schedule extends React.Component {
                     <a
                         rel="noopener noreferrer"
                         target="_blank"
-                        href={"https://balsamiq.com/"}
-                      >
-                        <Image
-                          className={"sponsor-image"}
-                          src={Balsamiq}
-                        ></Image>
-                      </a>
-                    </Grid.Column>
-                    <Grid.Column>
-                    </Grid.Column>
-                    <Grid.Column>
-                      <a
-                        rel="noopener noreferrer"
-                        target="_blank"
                         href={"https://www.ifixit.com/"}
                       >
                         <Image className={"sponsor-image"} src={If}></Image>
                       </a>
                     </Grid.Column>
+                    <Grid.Column>
+                      <a
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        href={"https://www.sketch.com/"}
+                      >
+                        <Image className={"sponsor-image"} src={Sketch}></Image>
+                      </a>
+                    </Grid.Column>
+                    <Grid.Column>
+                    <a
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        href={"http://www.ziplyne.com/"}
+                      >
+                        <Image className={"sponsor-image"} src={Ziplyne}></Image>
+                      </a>
+                    </Grid.Column>
                   </Grid.Row>
+                  <Grid.Row columns={3}>
+                    <Grid.Column>
 
+                    </Grid.Column>
+                    <Grid.Column>
+                    <a
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        href={"https://mccaffreys.com/"}
+                      >
+                        <Image className={"sponsor-image"} src={Mac}></Image>
+                      </a>
+                    </Grid.Column>
+                    <Grid.Column>
+                      
+                    </Grid.Column>
+                  </Grid.Row>
                   <div className={"partnerheader-contain"}>
                     <Header className={"Partner-head"}>Partners</Header>
                   </div>
