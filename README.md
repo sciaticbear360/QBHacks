@@ -1,4 +1,4 @@
-Website was created by Rohan Deshpande for QBHacks 2019.
+Website was created by Rohan Deshpande and Nabeel Ahmed for QBHacks 2019.
 ## Available Scripts
 
 In the project directory, you can run:
