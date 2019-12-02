@@ -18,7 +18,7 @@ export default class Schedule extends React.Component {
               </a>
             </div>
             <div className={"socials"}>
-            <a rel="noopener noreferrer"  target="_blank" href={"https://discord.gg/b6WpjRc"}>
+            <a rel="noopener noreferrer"  target="_blank" href={"https://discord.gg/gnK2mzV"}>
               <Icon size="huge" inverted color="grey" name={"discord"}>
 
               </Icon>

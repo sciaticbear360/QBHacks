@@ -45,8 +45,8 @@ export default class Schedule extends React.Component {
                 </tr>
                 <tr>
                   
-                  <td>Workshop: Machine Learning and Video Analysis on Microsoft Azure</td>
-                  <td>10:00am-11:30am</td>
+                  <td>Workshop: Introduction to Node.js</td>
+                  <td>10:00am-11:00am</td>
                 </tr>
                 <tr>
                   
@@ -56,11 +56,11 @@ export default class Schedule extends React.Component {
                 <tr>
                   
                   <td>Lunch Time</td>
-                  <td>1:00pm-3:00pm</td>
+                  <td>1:00pm-2:00pm</td>
                 </tr>
                 <tr>
                   
-                  <td>Workshop: Introduction to Node.js</td>
+                  <td>Workshop: Machine Learning and Video Analysis on Microsoft Azure</td>
                   <td>2:00pm-3:00pm</td>
                 </tr>
                 <tr>
