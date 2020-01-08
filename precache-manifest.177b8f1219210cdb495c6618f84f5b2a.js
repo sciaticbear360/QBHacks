@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "754798ccf8c9057bff73beee9a2327d5",
+    "revision": "4796f4129a95d8512463ba154a39995e",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.faaa52d3.chunk.css"
   },
   {
-    "revision": "bd4553104662d0cfe69e",
+    "revision": "3d6fb2eade517c2cd63a",
     "url": "/static/css/main.1d1aa3e7.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.a727db19.chunk.js"
   },
   {
-    "revision": "bd4553104662d0cfe69e",
-    "url": "/static/js/main.86b1a894.chunk.js"
+    "revision": "3d6fb2eade517c2cd63a",
+    "url": "/static/js/main.cc4b341a.chunk.js"
   },
   {
     "revision": "15cd7a5095344f50487a",
@@ -156,8 +156,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/outline-icons.ef60a4f6.woff"
   },
   {
-    "revision": "228dcc843a02f48ab0fdf876bf0cf75a",
-    "url": "/static/media/rohan-small.228dcc84.png"
+    "revision": "7ea5b16f54845b4509f896bcb72984fe",
+    "url": "/static/media/rohan-small.7ea5b16f.jpg"
   },
   {
     "revision": "4571cbf26941cb3aa8c88e18119abb66",
