@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5370ebb9b4e2f907f2db561bce2eab8d",
+    "revision": "9dc4741e0bdcbb8f1cdf9f67d6735e41",
     "url": "/QBHacks/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/QBHacks/static/css/2.5c66aa0f.chunk.css"
   },
   {
-    "revision": "be36a2ea5ca4ede4645f",
+    "revision": "51e6ce32bd5e236c2ddd",
     "url": "/QBHacks/static/css/main.ce2a1c27.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/QBHacks/static/js/2.05cd6360.chunk.js"
   },
   {
-    "revision": "be36a2ea5ca4ede4645f",
-    "url": "/QBHacks/static/js/main.5b67ef0d.chunk.js"
+    "revision": "51e6ce32bd5e236c2ddd",
+    "url": "/QBHacks/static/js/main.0b0cd867.chunk.js"
   },
   {
     "revision": "4ee078b35e5bf44e09f0",
@@ -152,8 +152,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/QBHacks/static/media/outline-icons.ef60a4f6.woff"
   },
   {
-    "revision": "228dcc843a02f48ab0fdf876bf0cf75a",
-    "url": "/QBHacks/static/media/rohan-small.228dcc84.png"
+    "revision": "85082a0302796ee911c9af2028cda70d",
+    "url": "/QBHacks/static/media/rohan-small.85082a03.png"
   },
   {
     "revision": "4571cbf26941cb3aa8c88e18119abb66",
